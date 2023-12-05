@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+:root{
+  --white: #fff;
+  --blue-900: #0F1424;
+}
+
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+ background: var(--blue-900);
+ color: var(--white);
+ -webkit-font-smoothing: antialiased;
+ width: 360px;
+ height: 800px;
+ font-family: 'Poppins';
+ margin: auto;
+ 
+}
+
+body, input, textarea, button {
+ font-weight: 400;
+ font-size: 1rem;
+}

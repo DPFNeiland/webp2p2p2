@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+}
+
+input{
+    background: none;
+    color: var(--white);
+    border: none;
+    border-bottom: 2px solid var(--white);
+    width: 80%;
+    height: 32px;
+    margin: 20px;
+}
+
+::placeholder {
+    color: var(--white);
+    opacity: 1; /* Firefox */
+    font-size: 0.9rem;
+}
+
+
+.divcheck{
+    align-self: flex-start;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 12px;
+    margin-top: 1rem;
+}
+
+.divcheck a{
+    display: block;
+
+}
+
+.inputcheck{
+    display: inline;
+    display: flex;
+}
+
+.menor{
+    width: 20px;
+   
+}
+
+.subdiv{
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 300px;
+}
+
+button{
+    margin: 10%;
+    width: 274px;
+    height: 54px;
+    top: 593px;
+    left: 43px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #0088EA 0%, #0F0F88 102.99%);
+    color: var(--white);
+}
+
+.criar{
+    width: 146px;
+    height: 24px;
+    top: 714px;
+    left: 107px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2F94E7;
+
+}
+
+.subinput{
+    flex-grow: 1;
+}
